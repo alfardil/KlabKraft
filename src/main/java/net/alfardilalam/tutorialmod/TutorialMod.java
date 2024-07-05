@@ -2,6 +2,7 @@ package net.alfardilalam.tutorialmod;
 
 import com.mojang.logging.LogUtils;
 
+import net.alfardilalam.tutorialmod.item.ModCreativeModTabs;
 import net.alfardilalam.tutorialmod.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
@@ -42,6 +43,8 @@ public class TutorialMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
@@ -61,6 +64,7 @@ public class TutorialMod
     {
        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.SAPPHIRE);
+            event.accept(ModItems.RAW_SAPPHIRE);
        }
     }
 
