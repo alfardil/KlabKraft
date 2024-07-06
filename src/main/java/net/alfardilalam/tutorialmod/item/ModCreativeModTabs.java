@@ -25,6 +25,7 @@ public class ModCreativeModTabs {
                 pOutput.accept(Items.DIAMOND);
 
                 pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                pOutput.accept(ModBlocks.AURA_GLOWSTONE.get());
             })
             .build());
 

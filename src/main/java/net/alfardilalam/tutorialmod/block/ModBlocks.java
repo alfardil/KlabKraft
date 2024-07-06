@@ -26,8 +26,17 @@ public class ModBlocks {
             .mapColor(MapColor.METAL)
             .instrument(NoteBlockInstrument.IRON_XYLOPHONE)
             .requiresCorrectToolForDrops()
-            .strength(5.0F, 6.0F)
+            .strength(3.0F, 6.0F)
             .sound(SoundType.AMETHYST))); // .copy method does not work (for some reason)
+
+    public static final RegistryObject<Block> AURA_GLOWSTONE = registerBlock("aura_glowstone",
+        () -> new Block(BlockBehaviour.Properties.of()
+        .mapColor(MapColor.SAND)
+        .instrument(NoteBlockInstrument.PLING)
+        .strength(0.3F)
+        .sound(SoundType.GLASS)
+        .lightLevel(p_50872_ -> 15)));
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
