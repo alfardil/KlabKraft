@@ -1,10 +1,10 @@
-package net.alfardilalam.tutorialmod;
+package net.alfardilalam.custommod;
 
 import com.mojang.logging.LogUtils;
 
-import net.alfardilalam.tutorialmod.block.ModBlocks;
-import net.alfardilalam.tutorialmod.item.ModCreativeModTabs;
-import net.alfardilalam.tutorialmod.item.ModItems;
+import net.alfardilalam.custommod.block.ModBlocks;
+import net.alfardilalam.custommod.item.ModCreativeModTabs;
+import net.alfardilalam.custommod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -19,13 +19,13 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(TutorialMod.MOD_ID)
-public class TutorialMod
+@Mod(CustomMod.MOD_ID)
+public class CustomMod
 {
-    public static final String MOD_ID = "tutorialmod";
+    public static final String MOD_ID = "custommod";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public TutorialMod()
+    public CustomMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 

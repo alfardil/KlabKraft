@@ -1,0 +1,4 @@
+make sure images are:
+- in png format
+- equal in dimensions
+- dimensions are evenly divisible by 16

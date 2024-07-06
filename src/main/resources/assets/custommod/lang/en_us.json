@@ -1,0 +1,10 @@
+{
+    "item.custommod.sapphire": "Sapphire",
+    "item.custommod.raw_sapphire": "Raw Sapphire",
+
+    "block.custommod.sapphire_block": "Block of Sapphire",
+    "block.custommod.raw_sapphire_block": "Block of Raw Sapphire",
+    "block.custommod.aura_glowstone": "Aura Glowstone",
+
+    "creativetab.tutorial_tab": "Custom Mod"
+}

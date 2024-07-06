@@ -1,11 +1,11 @@
-package net.alfardilalam.tutorialmod.block;
+package net.alfardilalam.custommod.block;
 
-import net.alfardilalam.tutorialmod.TutorialMod;
-import net.alfardilalam.tutorialmod.item.ModItems;
+import net.alfardilalam.custommod.CustomMod;
+import net.alfardilalam.custommod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
+// import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
@@ -19,7 +19,7 @@ import java.util.function.Supplier;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = 
-        DeferredRegister.create(ForgeRegistries.BLOCKS, TutorialMod.MOD_ID);
+        DeferredRegister.create(ForgeRegistries.BLOCKS, CustomMod.MOD_ID);
 
     public static final RegistryObject<Block> SAPPHIRE_BLOCK = registerBlock("sapphire_block",
         () -> new Block(BlockBehaviour.Properties.of()

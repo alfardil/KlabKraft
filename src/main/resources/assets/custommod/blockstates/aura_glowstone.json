@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "custommod:block/aura_glowstone"
+        }
+    }
+}
