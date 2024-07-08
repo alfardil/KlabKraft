@@ -19,11 +19,12 @@ public class ModCreativeModTabs {
         () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
             .title(Component.translatable("creativetab.tutorial_tab"))
             .displayItems((pParameters, pOutput) -> {
+                // mod items
                 pOutput.accept(ModItems.SAPPHIRE.get());
                 pOutput.accept(ModItems.RAW_SAPPHIRE.get());
+                pOutput.accept(ModItems.FOIL.get());
 
-                pOutput.accept(Items.DIAMOND);
-
+                // mod blocks
                 pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                 pOutput.accept(ModBlocks.AURA_GLOWSTONE.get());
                 pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());

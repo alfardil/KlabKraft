@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        " # ",
+        "#X#",
+        " # "
+    ],
+
+    "key": {
+        "#": {
+            "item": "minecraft:glowstone_dust"
+        },
+
+        "X": {
+            "item": "custommod:sapphire"
+        }
+    },
+
+    "result": {
+        "id": "custommod:aura_glowstone"
+    }
+
+
+}
