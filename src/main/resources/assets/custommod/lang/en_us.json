@@ -2,10 +2,12 @@
     "item.custommod.sapphire": "Sapphire",
     "item.custommod.raw_sapphire": "Raw Sapphire",
     "item.custommod.foil": "Foil",
+    "item.custommod.kryptonite": "Kryptonite",
 
     "block.custommod.sapphire_block": "Block of Sapphire",
     "block.custommod.raw_sapphire_block": "Block of Raw Sapphire",
     "block.custommod.aura_glowstone": "Aura Glowstone",
+    "block.custommod.kryptonite_block": "Block of Kryptonite",
 
     "creativetab.tutorial_tab": "Custom Mod"
 }

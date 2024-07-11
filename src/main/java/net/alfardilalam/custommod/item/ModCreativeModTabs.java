@@ -23,11 +23,14 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModItems.SAPPHIRE.get());
                 pOutput.accept(ModItems.RAW_SAPPHIRE.get());
                 pOutput.accept(ModItems.FOIL.get());
+                pOutput.accept(ModItems.KRYPTONITE.get());
 
                 // mod blocks
                 pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                 pOutput.accept(ModBlocks.AURA_GLOWSTONE.get());
                 pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
+                pOutput.accept(ModBlocks.KRYPTONITE_BLOCK.get());
+    
             })
             .build());
 

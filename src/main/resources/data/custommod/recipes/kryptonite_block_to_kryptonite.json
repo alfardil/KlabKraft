@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "custommod:kryptonite_block"
+        }
+    ],
+    "result": {
+        "id": "custommod:kryptonite",
+        "count": 9
+    }
+}

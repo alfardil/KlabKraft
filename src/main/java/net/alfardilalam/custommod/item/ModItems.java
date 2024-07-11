@@ -11,13 +11,20 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS = 
         DeferredRegister.create(ForgeRegistries.ITEMS, CustomMod.MOD_ID);
 
-    public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire",
+    public static final RegistryObject<Item> SAPPHIRE = ITEMS.register(
+        "sapphire",
         () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> RAW_SAPPHIRE = ITEMS.register("raw_sapphire",
+    public static final RegistryObject<Item> RAW_SAPPHIRE = ITEMS.register(
+        "raw_sapphire",
         () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> FOIL = ITEMS.register("foil",
+    public static final RegistryObject<Item> FOIL = ITEMS.register(
+        "foil",
+        () -> new Item(new Item.Properties()));
+    
+    public static final RegistryObject<Item> KRYPTONITE = ITEMS.register(
+        "kryptonite",
         () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
