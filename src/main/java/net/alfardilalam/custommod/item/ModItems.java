@@ -26,6 +26,10 @@ public class ModItems {
     public static final RegistryObject<Item> KRYPTONITE = ITEMS.register(
         "kryptonite",
         () -> new Item(new Item.Properties()));
+    
+    public static final RegistryObject<Item> KRYPTONITE_PICKAXE = ITEMS.register(
+        "kryptonite_pickaxe",
+        () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

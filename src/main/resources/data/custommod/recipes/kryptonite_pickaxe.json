@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "###",
+        " X ",
+        " X "
+    ],
+
+    "key": {
+        "#": {
+            "item": "custommod:kryptonite"
+        },
+        "X": {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result": {
+        "id": "custommod:kryptonite_pickaxe"
+    }
+}
